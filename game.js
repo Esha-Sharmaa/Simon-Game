@@ -30,7 +30,7 @@ $(".btn").click(function () {
 });
 // PLAY SOUND FUNCTION
 function playSound(name) {
-  var audioAddress = "/sounds/" + name + ".mp3";
+  var audioAddress = "sounds/" + name + ".mp3";
   var audio = new Audio(audioAddress);
   audio.play();
 }
